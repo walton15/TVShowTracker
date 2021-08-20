@@ -1,22 +1,14 @@
 {
-  "name": "TVShowTracker",
+  "name": "EJSPractice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/walton15/TVShowTracker.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/walton15/TVShowTracker/issues"
-  },
-  "homepage": "https://github.com/walton15/TVShowTracker#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
