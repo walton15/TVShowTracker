@@ -26,6 +26,7 @@ app.get('/cats', (req, res) => {
     res.render('cats', {cats});
 });
 
-app.listen(3000, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log("LISTENING HERE");
 });
