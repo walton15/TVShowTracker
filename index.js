@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.send('This is the home page.');
 });
 
+app.get('/carousel', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/index.html'));
+});
+
 app.get('/rand', (req, res) => {
     const rand = Math.floor(Math.random() * 10);
     res.render('rand', {rand});
